@@ -188,22 +188,24 @@
 
   <!-- welcome section -->
   <section class="welcome_section layout_padding">
+    <div class="video_background">
+      <video autoplay muted loop>
+        <source src="../images/videocloud.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </div>
     <div class="container">
       <div class="custom_heading-container">
-        <h2 style="color: #ffffff; text-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);" >
+        <h2 style="color: #ffffff; text-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);">
           Potencia tu Negocio con Cloud VPS de HostDime
         </h2>
       </div>
       <div class="layout_padding2">
-      
         <div class="detail-box">
           <p>
-            <h3 style="color: #ffffff; text-shadow: 8px 8px 15px rgba(230, 104, 0, 0.5);">
-              <strong>Data Center en Colombia: </strong> Baja latencia y mayor rendimiento al estar ubicado localmente.
-          </h3>
-          
-
-
+            <h3 style="color: #fffcfc; text-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);">
+              <strong>Data Center en Colombia:  Baja latencia y mayor rendimiento al estar ubicado localmente. </strong>
+            </h3>
           </p>
           <div>
             <a href="">
@@ -212,9 +214,10 @@
           </div>
         </div>
       </div>
-<br><br>
+      <br><br>
     </div>
   </section>
+  
   <!-- end welcome section -->
 
   <!-- service section -->
@@ -374,16 +377,11 @@
           </div>
           <div class="carousel-item">
             <div class="client_container layout_padding2">
-
               <p>
               <h2> Cloud certificado por VMWare</h2>
               </p>
-
-
             </div>
-            
           </div>
-  
         </div>
         <div class="dead" >
       <a class="boton" href="https://cloudvps.hostdime.com.co/cart.php?a=confproduct&i=9 ">
@@ -397,10 +395,6 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      
-        
-     
-
     </div>
   </section>
   <!-- end client section -->
@@ -409,63 +403,83 @@
   <section class="why_section layout_padding">
     <div class="container">
       <div class="custom_heading-container">
-        <h1 style="color: #f37720;" >
-        <strong>   Máxima Seguridad para tus Datos</strong>
-        </h>
+        <h1 style="color: #f37720;">
+          <strong>Máxima Seguridad para tus Datos</strong>
+        </h1>
       </div>
       <div class="content-container">
-        <h5 style="color: #000000;" >
+        <h5 style="color: #000000;">
           HostDime demuestra las mejores prácticas al lograr las siguientes certificaciones de cumplimiento.
           Como proveedor líder de centros de datos globales, HostDime mantiene la privacidad, seguridad y alta disponibilidad del cliente por encima de todo. En consecuencia, HostDime demuestra las mejores prácticas al lograr las siguientes certificaciones.
-                </h5>
+        </h5>
         <div class="row">
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 280%;" src="images/V.png" alt="" />
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/E.png" alt="" />
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/O.png" alt="" />
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/i.png" alt="" />
             </div>
-            
           </div>
+          
           <br> <br><br>
-          <div class="col-md-3 col-sm-6">
+          
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/is.png" alt="" />
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/isos.png" alt="" />
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/pci.png" alt="" />
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-6" style="padding: 10px; text-align: center;">
             <div class="img-box">
               <img style="width: 300%;" src="images/cloud.png" alt="" />
             </div>
           </div>
-          
         </div>
       </div>
     </div>
-  </section>
+    
+    <!-- Media query para móviles -->
+    <style>
+      @media (max-width: 768px) {
+        .img-box img {
+          width: 100% !important;
+        }
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .col-sm-6 {
+          width: 50%;
+          padding: 10px;
+        }
+      }
+    </style>
+    
+</section>
+
 
   <!-- fin de patrocinadores -->
 
